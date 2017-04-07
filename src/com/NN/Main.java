@@ -20,7 +20,7 @@ public class Main {
         Student student13 = new Student("Bobby","Lawrence","PA",77,true,2162,48,0.8,"");
         Student student14 = new Student("Antonio","Lawrence","CA",27,false,1930,48,0.8,"");
 
-        /*Originally I would've loaded the CSV into a POJO factory loading all the test data into POJO's then apply the criteria,
+        /*Originally I would've loaded the CSV into a factory loading all the test data into POJO's then apply the criteria,
          but for sake of time I am simply loading some hard coded test cases
           */
 
