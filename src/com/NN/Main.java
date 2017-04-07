@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         //Create Sample Applicant pool
-        Student student1 = new Student("Brandon","Schmidt","FL",54,false,2064,32,0.9,"");
+        Student student1 = new Student("Brandon","Schmidt","FL",24,false,2400,33,0.9,"");
         Student student2 = new Student("margaret","Perkins","IL",44,true,1888,27,0.9,"");
         Student student3 = new Student("Charles","Ryan","TX",42,false,1985,40,0.8,"");
         Student student4 = new Student("lisa","Reed","MA",34,false,1649,26,1.0,"");

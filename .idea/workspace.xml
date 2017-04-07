@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e3644d35-848a-44e1-8d11-0602ce0bc278" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/NN/Main.java" afterPath="$PROJECT_DIR$/src/com/NN/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/NN/Student.java" afterPath="$PROJECT_DIR$/src/com/NN/Student.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,21 +19,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/NN/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+            <state relative-caret-position="94">
+              <caret line="7" column="64" lean-forward="true" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/NN/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="131" column="98" lean-forward="true" selection-start-line="131" selection-start-column="98" selection-end-line="131" selection-end-column="98" />
+            <state relative-caret-position="348">
+              <caret line="141" column="0" lean-forward="true" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -478,18 +479,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/NN/Review.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/NN/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/com/NN/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="131" column="98" lean-forward="true" selection-start-line="131" selection-start-column="98" selection-end-line="131" selection-end-column="98" />
+        <state relative-caret-position="94">
+          <caret line="7" column="64" lean-forward="true" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/NN/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/NN/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        <state relative-caret-position="348">
+          <caret line="141" column="0" lean-forward="true" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
           <folding />
         </state>
       </provider>

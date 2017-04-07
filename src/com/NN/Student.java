@@ -128,11 +128,11 @@ public class Student {
     }
 
     public void acceptReview(Student student){
-        if(getAge() >= 17 && getAge() < 26 && getSat() > 1920 && getGpa() > 0.9){student.setStatus("accept");}
-        else if (getAge() > 80 && getSat() > 1920 && getGpa() > 0.9){student.setStatus("accept");}
-        else if(getSat() > 1920){student.setStatus("accept");}
-        else if(getAct() > 27){student.setStatus("accept");}
-        else if(getGpa() > 0.9){student.setStatus("accept");}
+        if((getAge() >= 17 && getAge() < 26) && getSat() > 1920 && getGpa() > 0.9){student.setStatus("Auto accept");}
+        else if (getAge() > 80 && getSat() > 1920 && getGpa() > 0.9){student.setStatus("Auto accept");}
+//        else if(getSat() > 1920){student.setStatus("accept");}
+//        else if(getAct() > 27){student.setStatus("accept");}
+//        else if(getGpa() > 0.9){student.setStatus("accept");}
     }
 
     public void furtherReview(Student student){
