@@ -6,9 +6,9 @@ public class Main {
 
         //Create Sample Applicant pool
         Student student1 = new Student("Brandon","Schmidt","FL",54,false,2064,32,0.9,"");
-        Student student2 = new Student("Margaret","Perkins","IL",44,true,1888,27,0.9,"");
+        Student student2 = new Student("margaret","Perkins","IL",44,true,1888,27,0.9,"");
         Student student3 = new Student("Charles","Ryan","TX",42,false,1985,40,0.8,"");
-        Student student4 = new Student("Lisa","Reed","MA",34,false,1649,26,1.0,"");
+        Student student4 = new Student("lisa","Reed","MA",34,false,1649,26,1.0,"");
         Student student5 = new Student("Harold","Adams","LA",20,true,2017,38,0.9,"");
         Student student6 = new Student("Todd","Bailey","IL",31,false,1941,16,0.8,"");
         Student student7 = new Student("Kenneth","Lee","NM",38,true,2166,22,0.8,"");
