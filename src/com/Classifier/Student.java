@@ -1,4 +1,4 @@
-package com.NN;
+package com.Classifier;
 
 /**
  * Created by Dave on 4/6/17.
@@ -124,11 +124,11 @@ public class Student {
         else if(getGpa() < 0.7){student.setStatus("reject b/c poor gpa");}
         else if(getAge() <= 0){student.setStatus("reject b/c not born yet");}
         else if(getFirstName() == getFirstName().toLowerCase()){student.setStatus("reject b/c firstname not capitalized");}
-        else if(getFirstName() == getLastName().toLowerCase()){student.setStatus("reject b/c lastname not capitalized");}
+        else if(getLastName() == getLastName().toLowerCase()){student.setStatus("reject b/c lastname not capitalized");}
     }
 
     public void acceptReview(Student student){
-        if((getAge() >= 17 && getAge() < 26) && getSat() > 1920 && getGpa() > 0.9){student.setStatus("Auto accept");}
+        if((getAge() >= 17 && getAge() < 26) || (getAge() > 80) && (getSat() > 1920 || getAct() > 27) && getGpa() > 0.9){student.setStatus("Auto accept");}
         else if (getAge() > 80 && getSat() > 1920 && getGpa() > 0.9){student.setStatus("Auto accept");}
 //        else if(getSat() > 1920){student.setStatus("accept");}
 //        else if(getAct() > 27){student.setStatus("accept");}
@@ -136,6 +136,6 @@ public class Student {
     }
 
     public void furtherReview(Student student){
-        if (student.getStatus().isEmpty()){student.setStatus("further");}
+        if (student.getStatus().isEmpty()){student.setStatus("further review required");}
     }
 }
